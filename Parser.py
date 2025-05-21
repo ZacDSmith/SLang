@@ -28,6 +28,7 @@ PRECEDENCES: dict[TokenType, PrecedenceType] = {
     TokenType.MINUS: PrecedenceType.P_SUM,
     TokenType.SLASH: PrecedenceType.P_PRODUCT,
     TokenType.MODULUS: PrecedenceType.P_PRODUCT,
+    TokenType.ASTERISK: PrecedenceType.P_PRODUCT,
     TokenType.POW: PrecedenceType.P_EXPONENT
 }
 
